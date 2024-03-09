@@ -1,0 +1,177 @@
+/* All */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* body */
+
+/* Header */
+.header {
+  width: 1000px;
+  padding: 24px 24px 8px 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 50px;
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero-section {
+  background-color: #1f2937;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  padding-bottom: 200px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-article {
+  color: #e5e7eb;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  margin-bottom: 48px;
+}
+
+.hero-btn {
+  font-size: 24px;
+  padding: 8px 32px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+}
+
+.img-hero {
+  width: 500px;
+}
+
+/* Cards */
+.card-section {
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 36px;
+  margin: 50px 0;
+}
+
+.card-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 150px;
+}
+
+.img-card {
+  width: 150px;
+}
+
+.img-text {
+  color: #1f2937;
+}
+
+/* Article */
+.article-section {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.article {
+  font-size: 36px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-author {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: end;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/* Call to Action */
+.cta-section {
+  color: #e5e7eb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3882f6;
+  padding: 50px 120px;
+  border-radius: 8px;
+}
+
+.cta-btn {
+  padding: 8px 32px;
+  background-color: #3882f6;
+  border: solid;
+  border-color: #e5e7eb;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
